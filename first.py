@@ -1,0 +1,18 @@
+import numpy as np
+arr=np.array([1,2,3,4,5])
+print(arr)
+print(type(arr))
+print(arr[2])
+print(arr[2:4])
+print(arr.dtype)
+arr2=np.array([[1,2,3,4],[5,6,7,8]])
+print(arr2)
+print(arr2.shape)
+arr3=np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+newarr=arr3.reshape(4,3)
+print(newarr)
+for i in arr2:
+    print(i)
+arr5=np.array([1,2,3,4,5])
+arr1=np.concatenate(arr,arr5)
+print(arr1)
