@@ -10,7 +10,7 @@ average_marks = np.mean(marks)
 
 
 plt.figure(figsize=(8, 6))
-plt.bar(students, marks, color='skyblue', label='Marks')
+plt.bar(students, marks, color='yellow', label='Marks')
 
 
 plt.axhline(y=average_marks, color='red', linestyle='--', label=f'Average: {average_marks:.2f}')
